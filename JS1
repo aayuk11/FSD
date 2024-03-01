@@ -1,0 +1,77 @@
+       //print karade inspect karle
+       console.log('yoyoyo');
+      //{
+      // let a=9;
+       //console.log(a);}
+       //const num=9;
+
+       let a='aayush';
+       console.log(a);
+       a=7;
+       console.log(a);
+       let c=7;
+       let d=8;
+      // console.log(c**d);
+       //console.log(c+d);
+       let ans1 = (++c)*(--d);
+       let ans2 = (++c)*(d--);
+       let ans3 = (c++)*(d++);
+       let ans4 = (--c)*(d--);
+       console.log(ans1);
+       console.log(ans2);
+       console.log(ans3);
+       console.log(ans4);
+       console.log(c);
+       console.log(d);
+
+       let age=26;
+       let status=(age>=18)?'I can vote':'I can not vote';
+       console.log(status);
+       console.log(false||5||0);
+       console.log(1 && 5 && 'aayu');
+
+       let marks=7;
+       if(marks>=90){
+              console.log('A');
+       }
+       else if(marks>=80){
+              console.log('B');
+       }
+       else if(marks>=70){
+              console.log('C');
+       }
+       else if(marks>=60){
+              console.log('D');
+       }
+       else{
+              console.log('E');
+       }
+
+       let num=8;
+       switch(num){
+              case 1:console.log('A')
+              break;
+              case 2:console.log('B');
+              break;
+              case 3:console.log('C');
+              break;
+              default:console.log('D');
+              break;
+       }
+
+       for(i=1; i<10; i++){
+              console.log('Aayush'+i);
+       }
+       
+       let j=0;
+       while(j<10){
+              console.log('Aayush'+j);
+              j++;
+       }
+
+       let x=2;
+       do{
+              console.log(x);
+              x++;
+       }
+       while(x<10);
